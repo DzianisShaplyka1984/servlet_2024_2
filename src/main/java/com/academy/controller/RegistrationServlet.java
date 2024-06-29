@@ -10,6 +10,6 @@ import java.io.IOException;
 public class RegistrationServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
-        req.getRequestDispatcher("/WEB-INF/jsp/reistration.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/jsp/registration.jsp").forward(req, resp);
     }
 }
