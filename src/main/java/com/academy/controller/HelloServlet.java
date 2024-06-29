@@ -23,7 +23,6 @@ public class HelloServlet extends HttpServlet {
                           HttpServletResponse response) {
         HttpSession session = request.getSession();
 
-        session.setAttribute("msg",
-                             "Hello World!!!");
+        session.setAttribute("msg", "Hello World!!!!");
     }
 }
