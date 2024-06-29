@@ -12,6 +12,7 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        response.setContentType("text/html");
 
         request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request, response);
     }
